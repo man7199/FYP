@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3350346a50435fb105454de9c2e455, type: 3}
+  m_Name: group 7
+  m_EditorClassIdentifier: 
+  enemy:
+  - {fileID: 11400000, guid: a7bc6618dc19a6a47a3700afb55f9c5f, type: 2}
+  - {fileID: 11400000, guid: c91fbf6cc4239ad4fa5fafa181d12866, type: 2}
+  spawnTime: 2
+  spawnPoints: 04000000

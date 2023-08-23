@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Grid-map and Building/PathFindingSystem.cs.meta
+guid: 674282178d9be0349aa16ec76fd529d6
+========
+guid: 676692f8821bffd46aac3d2f42162b08
+>>>>>>>> MainMenuUIv1:Assets/Scripts/GameUIButton.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

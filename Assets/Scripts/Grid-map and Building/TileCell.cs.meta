@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Grid-map and Building/MapCell.cs.meta
+guid: cf02325cafbcfac4c8db0aa63cb7bfa0
+========
+guid: a33d0a09ffcd31a4e88a0f4a3cafa710
+>>>>>>>> MainMenuUIv1:Assets/Scripts/AllyProducer.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

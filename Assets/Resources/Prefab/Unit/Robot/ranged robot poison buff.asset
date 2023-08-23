@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece27b0e967e4888ae086eb0a5173a3b, type: 3}
+  m_Name: ranged robot poison buff
+  m_EditorClassIdentifier: 
+  Duration: 5
+  IsDurationStacked: 0
+  IsEffectStacked: 0
+  description: Poison
+  image: {fileID: 0}
+  damagePerSecond: 5

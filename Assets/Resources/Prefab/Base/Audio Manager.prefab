@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4966371092760240160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4966371092760240161}
+  - component: {fileID: 4966371092760240166}
+  m_Layer: 0
+  m_Name: Music Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966371092760240161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966371092760240160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4966371094088658368}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &4966371092760240166
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966371092760240160}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 2387469298841771612, guid: 17d90ccba1be5479fae93d2d46fcd5bb, type: 2}
+  m_audioClip: {fileID: 8300000, guid: c756d052fc4d84d07a3ccc2f3e1ac55e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &4966371094088658371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4966371094088658368}
+  - component: {fileID: 4966371094088658369}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966371094088658368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966371094088658371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4966371092760240161}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4966371094088658369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966371094088658371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fd98c35c13f42729172a16f6a7bda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 4966371092760240166}
+  masterMixer: {fileID: 24100000, guid: 17d90ccba1be5479fae93d2d46fcd5bb, type: 2}
+  sfxMixer: {fileID: -102837210111065388, guid: 17d90ccba1be5479fae93d2d46fcd5bb, type: 2}
+  uiMixer: {fileID: -1103102930090101216, guid: 17d90ccba1be5479fae93d2d46fcd5bb, type: 2}
+  musicMixer: {fileID: 2387469298841771612, guid: 17d90ccba1be5479fae93d2d46fcd5bb, type: 2}
+  defaultMixer: 0
+  soundBank:
+    kvps:
+    - Key: clickUI
+      Value: {fileID: 8300000, guid: d7922299fbd031e45b278628d84ad71f, type: 3}
+    - Key: hoverUI
+      Value: {fileID: 8300000, guid: 9dc8d592ef9e04adba289cacf2e9cd71, type: 3}
+    - Key: failUI
+      Value: {fileID: 8300000, guid: a9a644e34bf8fba4e81b344ab93ea880, type: 3}
+    - Key: explode
+      Value: {fileID: 8300000, guid: 79d9d2640bb9ed8499d68db6fd72d86a, type: 3}
+    - Key: explode_2
+      Value: {fileID: 8300000, guid: 42c78c2f94775af448ed6d7feb735776, type: 3}
+    - Key: melee
+      Value: {fileID: 8300000, guid: 402817ec09bfde54c95bb7b1dd592014, type: 3}
+    - Key: melee_2
+      Value: {fileID: 8300000, guid: 3cb20969bb1f18e4fa407289bbed9cbf, type: 3}
+    - Key: heal
+      Value: {fileID: 8300000, guid: fb7a8c8997c05114383efe7685fc6985, type: 3}
+    - Key: increaseATK
+      Value: {fileID: 8300000, guid: c879928d0aea4494f808267e99384f6a, type: 3}
+    - Key: shooting
+      Value: {fileID: 8300000, guid: 6aaa104a0a48b3b419ff3163bc808dca, type: 3}
+    - Key: shooting2
+      Value: {fileID: 8300000, guid: 4c2189a6cf762284787b951ddfeda028, type: 3}
+    - Key: coronaAttack
+      Value: {fileID: 8300000, guid: ef90a85d90d915843b45e64226f9cfc7, type: 3}
+    - Key: setMine
+      Value: {fileID: 8300000, guid: ea9196fa2db45c54384ded22a785c446, type: 3}
+    - Key: smash
+      Value: {fileID: 8300000, guid: 1bef956bca7796042af3c0f1a79bd3cd, type: 3}
+    - Key: mining
+      Value: {fileID: 8300000, guid: 57a36415298469f4489a7032ec5a78c4, type: 3}
+    - Key: sendingResource
+      Value: {fileID: 8300000, guid: 49aa7376a3cc68a47a7b4a6c4fe03df1, type: 3}
+    - Key: turret
+      Value: {fileID: 8300000, guid: 9e8764a4c7b91f347ac474a781ce2822, type: 3}
+  musicBank:
+    kvps:
+    - Key: menu
+      Value: {fileID: 8300000, guid: 849e2fe4774034e3c93e3164f9c16866, type: 3}

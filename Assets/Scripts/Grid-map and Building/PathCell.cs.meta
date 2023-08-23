@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Grid-map and Building/PathNode.cs.meta
+guid: 9673220b4949e8a43a205d4319beb0a4
+========
+guid: dd4d3bb2cb85f7842926534cf476b831
+>>>>>>>> MainMenuUIv1:Assets/Scripts/ResourceGenerator.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

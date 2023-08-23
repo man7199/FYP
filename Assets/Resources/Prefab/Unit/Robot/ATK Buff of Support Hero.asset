@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb36ee7d17d64e9eb9ab9f95ce25ea21, type: 3}
+  m_Name: ATK Buff of Support Hero
+  m_EditorClassIdentifier: 
+  Duration: 10
+  IsDurationStacked: 1
+  IsEffectStacked: 0
+  description: increase ATK
+  image: {fileID: 21300000, guid: 39af89d50a27a88488758c6f535d74d3, type: 3}
+  ATKUpAmount: 1

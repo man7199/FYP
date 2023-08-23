@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Grid-map and Building/MapSystem.cs.meta
+guid: eea87f22fc4d28547a8369adc56ce8dd
+========
+guid: b9ca822fb3f0d9144a28fe1d07ade98b
+>>>>>>>> MainMenuUIv1:Assets/Scripts/BuildingFunction.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
